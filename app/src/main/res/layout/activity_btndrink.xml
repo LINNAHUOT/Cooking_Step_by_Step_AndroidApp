@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.CookingStepbyStep">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/drink_toolbar"
+            android:layout_width="350dp"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+
+            <EditText
+                android:id="@+id/search_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:drawablePadding="3dp"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableTint="@color/black"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:hint="@string/search_bar"
+                android:textColorHint="#ccc"
+                android:background="@color/white"/>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/DrinkRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "556651399930",
+    "firebase_url": "https://cookingstepbystep-9d13a-default-rtdb.firebaseio.com",
+    "project_id": "cookingstepbystep-9d13a",
+    "storage_bucket": "cookingstepbystep-9d13a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556651399930:android:2fc75d4ff9fed7ffa25743",
+        "android_client_info": {
+          "package_name": "com.example.cookingstepbystep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556651399930-4orfj3h38si521cihsli9n1oi0e7vg10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeAeb4LBreTQMD7ZBkxoC3-pFNN5lOfcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556651399930-4orfj3h38si521cihsli9n1oi0e7vg10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

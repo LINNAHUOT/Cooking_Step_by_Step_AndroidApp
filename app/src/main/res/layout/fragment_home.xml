@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="100dp"
+
+            android:id="@+id/txt_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/category"
+            android:textSize="35sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_logo"
+            android:src="@drawable/img_logo"/>
+    </RelativeLayout>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="onFoodClick"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_food"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/food"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:onClick="onDrinkClick"
+
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btn_food"
+            android:layout_alignRight="@id/btn_food"
+            android:layout_alignEnd="@id/btn_food"
+            android:text="@string/drink"
+            android:textStyle="bold"
+            android:textSize="18sp">
+
+        </Button>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

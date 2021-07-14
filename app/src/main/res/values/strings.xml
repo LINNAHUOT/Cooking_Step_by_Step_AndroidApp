@@ -1,0 +1,45 @@
+<resources>
+
+<!--welcome screen-->
+    <string name="welcome_page">Start</string>
+
+<!--hOME Screen-->
+    <string name="home_page">Home page</string>
+    <string name="category">Category</string>
+    <string name="food">Food</string>
+    <string name="drink">Drink</string>
+
+
+
+<!--Navigetion-->
+    <string name="home">Home</string>
+    <string name="about">About us</string>
+    <string name="favourite">Favourite </string>
+    <string name="share">Share</string>
+
+
+    <!-- Button in Bttn Food -->
+    <string name="label1_f"> Soup </string>
+    <string name="search_bar">Search</string>
+    <string name="label2_f"> Fried </string>
+
+
+    <!-- Button in Bttn Drink  -->
+    <string name="label1_j">Apple Juice</string>
+
+
+
+    <!--About us-->
+    <string name="About_Us">Cooking Step by Step </string>
+    <string name="Describe">This app was created for in order to facilitate cooking.
+        You will find out a lot of food and drink with ingredients and recipes as well.</string>
+    <string name="Describe2">+ Easy to find</string>
+    <string name="Describe3"> + Favourite,yoou can mark each iteam as your favourite  </string>
+
+
+
+
+
+
+
+</resources>
